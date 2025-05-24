@@ -9,6 +9,6 @@ services:
       POSTGRES_PASSWORD: ${DB_PASSWORD}
       POSTGRES_DB: ${DB_NAME}
     volumes:
-      - bma_data:/var/lib/postgresql/data
+      - acaq_data:/var/lib/postgresql/data
 volumes:
-  bma_data:
+  acaq_data:
